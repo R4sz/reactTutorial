@@ -1,7 +1,7 @@
 import React from 'react'
 
 const TopBar = () => (
-	null
+	<div className='top-bar'>Hello</div>
 )
 
 export default TopBar

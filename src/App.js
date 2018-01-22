@@ -1,5 +1,6 @@
 import React from 'react'
 import TopBar from './top-bar'
+import WelcomeComponent from './welcome'
 
 class App extends React.Component {
 
@@ -7,6 +8,7 @@ class App extends React.Component {
 		return (
 			<div>
 				<TopBar/>
+                <WelcomeComponent variable={'matrix'}/>
 
 				<div className='container-fluid'>
 					<div className='row fill-height'>
