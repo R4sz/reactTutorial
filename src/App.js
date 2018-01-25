@@ -1,14 +1,16 @@
 import React from 'react'
-import TopBar from './top-bar'
-import WelcomeComponent from './welcome'
+import {expenses as initialExpenses} from './data'
+import ExpenseList from './expense-list'
 
 class App extends React.Component {
 
 	render() {
 		return (
 			<div>
-				<TopBar/>
-                <WelcomeComponent variable={'matrix'}/>
+				<ExpenseList expenses={initialExpenses}/>
+
+                {/*<TopBar/>*/}
+                {/*<WelcomeComponent variable={'matrix'}/>*/}
 
 				<div className='container-fluid'>
 					<div className='row fill-height'>
